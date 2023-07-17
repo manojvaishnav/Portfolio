@@ -32,7 +32,7 @@ app.post('/',async (req,res)=>{
         res.status(200).render('index');
     } catch (error) {
         console.log(error);
-        res.send('Something Went Wrong')
+        res.send('Something Went Wrong');
     }
 });
 app.listen(port,()=>{
